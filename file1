@@ -1,0 +1,14 @@
+apt-get update -y
+apt-get install git -y
+mkdir <directory name> | cd <directory name>
+vi <file name> --> i , esc , :wq
+git add <file name>
+git status
+git commit -m "description of file"
+git config --global --edit --> ctrl+s , ctrl+x
+git commit --amend --reset-author --> ctrl+s , ctrl+x
+git remote add origin <http link>
+git branch
+git push -u origin <branch name> 
+---username:github username
+---password:github access token
